@@ -47,8 +47,9 @@ clonning (){
 
     cmake -DWITH_HWLOC=OFF .. 
     make
-
-
+    wget https://raw.githubusercontent.com/aruncs31s/linux-mining/main/config.json
+    printf "If your not me then you should make a config.json for your self\n read https://github.com/aruncs31/linux-mining/README.md\n"
+  
 }
 afterInstall(){
     printf "\n xmrig is now installed "
